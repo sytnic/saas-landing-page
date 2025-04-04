@@ -92,6 +92,16 @@ img {
     margin-bottom: 20px;
 }
 
+/* Testimonials */
+.testimonials {
+    padding: 40px 0;
+}
+
+.testimonials .testimonials-heading {
+    width: 700px;
+    margin-bottom: 40px;
+}
+
 /* Utility Classes*/
 .container {
     max-width: 1100px;
