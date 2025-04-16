@@ -101,6 +101,17 @@ img {
     width: 700px;
     margin-bottom: 40px;
 }
+.testimonials-grid {
+    display: grid;
+
+    /* Различные аналогичные записи: 
+       fr - это fraction unit, фракция*/
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-columns: 100px 100px 200px;*/
+
+    gap: 30px;
+}
 
 /* Utility Classes*/
 .container {
@@ -208,3 +219,12 @@ img {
     background: #000;
     color: #fff;
 }
+
+/* Card */
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
