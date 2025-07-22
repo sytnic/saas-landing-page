@@ -437,7 +437,9 @@ img {
 
 /* отображение для менее 960px */
 @media(max-width: 960px) {
-    
+    .text-xxl {
+        font-size: 2.5rem;
+    }
 }
 
 /* отображение для менее 670px */
@@ -448,6 +450,25 @@ img {
 
     .navbar .hamburger-button {
         display: block;
+    }
+
+    .hero .container {
+        background: url('../images/hero-bg-mobile.png') no-repeat;
+        background-size: 350px 400px;
+        background-position: bottom;
+        height: 770px;
+    }
+
+    .hero .hero-content,
+    .hero .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-buttons .btn {
+        margin-bottom: 10px;
+        display: block;
+        width:100%;
     }
 }
 
